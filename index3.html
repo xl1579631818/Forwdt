@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=<ul>, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Page 3</title>
+<style type="text/css">
+   body{
+       background-color: #2b1055;
+   }
+    h1{
+        text-align: center; 
+        color: rgb(255, 255, 255);
+    }
+    section#book_area { /*与布局同宽*/ 
+        clear:both; 
+        border-radius:20px 0px 20px 0px; 
+        /* border:1px solid #bb98f3;  */
+        margin:8px 0 16px; /*上下间距*/ 
+        overflow:hidden; 
+    } 
+    #book_area article { /*四本书四栏*/ 
+        float:left; 
+        width:25%; 
+        padding:10px 0; 
+        background:none; 
+    } 
+    #book_area article .inner { /*封面外包装*/ 
+        position:relative; /*为弹出层提供定位上下文*/ 
+        width:140px; /*包装每一本书*/ 
+        margin:0 auto; /*在各自 article 元素内居中每一本书*/ 
+    } 
+    #book_area article .inner h3{
+        color:rgb(255, 255, 255);
+    }
+    #book_area article .inner audio{
+        position: static;
+        width: 260px;
+    }  
+    footer { 
+        padding:.5em 0 .35em 0; /*内容上下的间距*/ 
+        text-align:center; /*居中内容*/ 
+        border-radius:10px 0px 10px 0px; 
+        background:rgb(137, 78, 160); 
+        box-shadow:0 12px 8px -9px #555; 
+    } 
+footer p { /*文本行的样式*/ 
+        font-family:'Source Sans Pro'; 
+        font-weight:400; 
+        font-size:.85em; 
+        letter-spacing:-.05em; 
+        color:#555; 
+    } 
+footer p a { /*文本行中的链接*/ 
+    font-family:'Source Sans Pro'; 
+    font-style:italic; 
+    font-weight:700; 
+    font-size:1em; 
+    color:#4eb8ea; 
+    text-decoration:none; 
+ } 
+footer p a:hover { 
+    color:#777; 
+ } 
+footer ul { /*链接列表*/ 
+    display:inline-block; /*收缩包围列表*/ 
+    margin:4px 0 0; 
+ } 
+footer li { 
+    list-style-type:none; /*去掉默认的项目符号*/ 
+    float:left; /*让列表项水平排列*/ 
+    font-family:"Source Sans Pro"; 
+    font-weight:400; 
+    font-size:.85em; 
+ } 
+footer li + li a { 
+    border-left:1px solid #ccc; /*链接分隔线*/ 
+ }
+ footer li a { 
+    text-decoration:none; /*去掉链接默认的下划线*/ 
+    color:#aaa; 
+ padding:0 5px; /*链接间距*/ 
+ } 
+footer a:hover { 
+    color:#777; 
+ }
+</style>
+</head>
+<body>
+    <h1>吴丹婷的歌单</h1>
+   <section id="book_area"> 
+        <article class="left"> 
+            <div class="inner"> 
+                <h3>신청곡 (申请曲)-李素罗</h3><!-- 要旋转的文字 --> 
+                <img src="img/m1.png" alt="Stylin' with CSS cover" /> 
+                <audio src="music/李素罗 (이소라) _ SUGA - 신청곡 (申请曲).flac"
+                preload="auto"
+                controls
+                换个浏览器试试
+                </audio>
+            </div> 
+        </article> 
+        <article class="left"> 
+            <div class="inner"> 
+                <h3>白艺潾 - Antifreeze</h3><!-- 要旋转的文字 --> 
+                <img src="img/m2.png" alt="Stylin' with CSS cover" /> 
+                <audio src="music/白艺潾 (백예린) - Antifreeze.flac"
+                preload="auto"
+                controls
+                loop>
+                换个浏览器试试
+                </audio>
+            </div> 
+        </article> 
+        <article class="left"> 
+            <div class="inner"> 
+                <h3>Freaky Deaky (Explicit)</h3><!-- 要旋转的文字 --> 
+                <img src="img/m3.png" alt="Stylin' with CSS cover" /> 
+                <audio src="music/Tyga _ Doja Cat - Freaky Deaky (Explicit).mp3"
+                preload="auto"
+                controls
+                loop>
+                换个浏览器试试
+                </audio>
+            </div> 
+        </article> 
+        <article class="left"> 
+            <div class="inner"> 
+                <h3>Epilogue_ Young Foreve</h3><!-- 要旋转的文字 --> 
+                <img src="img/m4.png" alt="Stylin' with CSS cover" /> 
+                <audio src="music/BTS - Epilogue_ Young Forever.mp3"
+                preload="auto"
+                controls
+                loop>
+                换个浏览器试试
+                </audio>
+            </div> 
+        </article> 
+   </section>
+    <section id="book_area"> 
+        <article class="left"> 
+            <div class="inner"> 
+                <h3>IVE - LOVE DIVE</h3><!-- 要旋转的文字 --> 
+                <img src="img/m5.png" alt="Stylin' with CSS cover" /> 
+                <audio src="music/IVE - LOVE DIVE.mp3"
+                preload="auto"
+                controls
+                换个浏览器试试
+                </audio>
+            </div> 
+        </article> 
+        <article class="left"> 
+            <div class="inner"> 
+                <h3>BIGBANG-Still Life</h3><!-- 要旋转的文字 --> 
+                <img src="img/m6.png" alt="Stylin' with CSS cover" /> 
+                <audio src="music/BIGBANG - 봄여름가을겨울 (Still Life)_hires.flac"
+                preload="auto"
+                controls
+                loop>
+                换个浏览器试试
+                </audio>
+            </div> 
+        </article> 
+        <article class="left"> 
+            <div class="inner"> 
+                <h3>Higher Brothers</h3><!-- 要旋转的文字 --> 
+                <img src="img/m7.png" alt="Stylin' with CSS cover" /> 
+                <audio src="music/Higher Brothers _ HARIKIRI - 暴风雨.mp3"
+                preload="auto"
+                controls
+                loop>
+                换个浏览器试试
+                </audio>
+            </div> 
+        </article> 
+        <article class="left"> 
+            <div class="inner"> 
+                <h3>想到你-就嘻嘻嘻嘻</h3><!-- 要旋转的文字 --> 
+                <img src="img/m8.png" alt="Stylin' with CSS cover" /> 
+                <audio src="music/朴宰范 _ pH-1 _ 李大奔 - 想到你.mp3"
+                preload="auto"
+                controls
+                loop>
+                换个浏览器试试
+                </audio>
+            </div> 
+        </article> 
+   </section>
+
+    <footer> 
+        <p>Return  <a href="index.html"> <em> HOME </em></a>design by XieLing</p> 
+        <nav> 
+            <ul> 
+                <li><a href="index2.html">Page1</a></li> 
+                <li><a href="index2_1.html">Page2</a></li> 
+            </ul> 
+        </nav> 
+    </footer>
+
+</body>
+</html>
